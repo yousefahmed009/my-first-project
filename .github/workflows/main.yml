@@ -17,6 +17,9 @@ jobs:
         run: ls
       
       - uses: actions/checkout@v3
+      
+      -name: "login to docker hup"
+       run: docker login --username hereba009 --password dckr_pat_eijHB8_ysB9EnKFFj_PWUNwxL70
      
         
 
