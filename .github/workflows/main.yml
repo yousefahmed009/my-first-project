@@ -13,11 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing githup action'
-        run: pwd
+      - name: 'printing folder contents'
+        run: ls
      
-      - name: 'testing printing'
-        run: echo yousef
+     
         
 
 
