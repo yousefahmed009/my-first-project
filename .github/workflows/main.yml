@@ -18,10 +18,10 @@ jobs:
         run: docker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_TOKEN }}
       
       -name: "building docker image"
-       run: docker build -t hereba009/myimage .
+       run: docker build -t hereba009/youssef .
        
       -name: "pushing to Docker hup"
-       run: docker push hereba009/myimage
+       run: docker push hereba009/youssef
 
 
 
