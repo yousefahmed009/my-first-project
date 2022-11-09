@@ -13,9 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'printing folder contents'
+      - name: 'berore'
         run: ls
-     
+      
+      -uses: actions/checkout@v3
+
+      - name: 'after'
+        run: ls
      
         
 
